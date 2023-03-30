@@ -139,21 +139,163 @@ int main() {
 	
 ////////////////////////////////////////////////////////////////////////////////////////////
 	
-//////////////////////////////////////	CONTROL DE FLUJO ///////////////////////////////////
+//////////////////////////////////////	CONTROL DE FLUJO IF ///////////////////////////////////
 	
-	int a=18, b=40;
+//	int a=18, b=40;
+//	
+//	if( a > b)
+//		
+//		printf("\n\n %d es mayor que %d", a, b);
+//		
+//	 else 
+//		
+//		printf("\n\n %d es menor o igual que  %d", a, b);
+//		
+//		printf("\n\n\n\n");
+
+//////////////////////////////////////	CONTROL DE FLUJO IF ///////////////////////////////////
+
+//////////////////////////////////////	CONTROL DE FLUJO FOR ///////////////////////////////////
+
+//	for(int i = 0; i<100; i+=2){
+//		
+//		printf("los numeros pares son: %d \n" , i);
+//		
+//	}
 	
-	if( a > b)
-		
-		printf("\n\n %d es mayor que %d", a, b);
-		
-	 else 
-		
-		printf("\n\n %d es menor o igual que  %d", a, b);
-		
-		printf("\n\n\n\n");
-		
+//	for(int i = 1; i<11; i+=2){
+//		
+//		printf("Los impares son: %d \n" , i);
+//		
+//	}
+//		
 	
+//pida al usuario ingresar un número entero por consola, y luego determine si ese número es positivo, negativo o cero
+
+//	int n;
+//	
+//	printf("ingrese un numero x: ");
+//	scanf("%d", &n);
+//	
+//	if(n > 0 ) {
+//		
+//		printf("el numero es positivo");
+//		
+//	} else if ( n == 0 ) {
+//		
+//		printf("el numero es 0");
+//		
+//	} else {
+//		
+//		printf("el numero es negativo");
+//		
+//    }   
+
+
+//  Crea un programa que pida al usuario ingresar su edad, y luego determine si es mayor o menor de edad.
+
+
+//	int e;
+//	
+//	printf("ingrese su edad: ");
+//	scanf("%d", &e);
+//	
+//	if ( e > 18) {
+//		
+//		printf("es mayor de edad");
+//		
+//	} else {
+//		
+//		printf("es menor de edad");
+//		
+//	}
+
+//  pida al usuario ingresar dos números enteros por consola, y luego determine cuál de ellos es el mayor.
+
+//	int n1, n2;
+//	
+//	printf("ingrese el numero 1: ");
+//	scanf("%d", &n1);
+//	
+//	printf("ingrese el numero 2: ");
+//	scanf("%d", &n2);
+//
+//	if (n1 > n2) {
+//		
+//		printf("el numero 1 es mayor: ");
+//		
+//	} else if ( n1 == n2 ) {
+//		
+//		printf("los numeros son iguales");
+//		
+//	} else {
+//		
+//		printf("el numero 2 es mayor");
+//		
+//	}
+
+// pida al usuario ingresar un número entero por consola, y luego determine si es par o impar.
+
+//	int n ;
+//	
+//	printf("ingrese un numero: \n");
+//	scanf("%d", &n);
+//	
+//	
+//	if( n % 2 == 0  ){
+//		
+//		printf("el numero ingresado es par \n");
+//		
+//	} else {
+//		
+//		printf("el numero ingresado es impar \n");
+//		
+//	}
+
+// pida al usuario ingresar un carácter por consola, y luego determine si es una vocal o una consonante.
+
+//  char letra;
+//  
+//  
+//	printf("ingrese una letra: \n");
+//	scanf("%c", &letra);
+//	
+//	if( letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o'|| letra == 'u'){
+//		
+//		printf("la letra es vocal \n");
+//		
+//	} else {
+//		
+//		printf("la letra es consonante \n");
+//		
+//		
+//	}
+
+
+//  pida al usuario ingresar dos números enteros por consola, y luego determine si su suma es positiva, negativa o cero.
+
+//	int n1, n2;
+//	
+//	printf("ingrese un numero: \n");
+//	scanf("%d", &n1);
+//	
+//	printf("ingrese un numero: \n");
+//	scanf("%d", &n2);
+//	
+//	if (n1 + n2 >= 1) {
+//		
+//		printf("la suma es positiva");
+//		
+//	} else if( n1 + n2 == 0 ){
+//		
+//		printf("la suma es 0");
+//		
+//	} else {
+//		
+//		printf("la suma es negativa");
+//	}
+
+
 	
 	return 0;
 }
