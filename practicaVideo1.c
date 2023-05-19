@@ -296,6 +296,129 @@ int main() {
 //	}
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Ejercicios con la estructura switch 
+
+// pida al usuario que ingrese un número del 1 al 7, y luego muestre el día de la semana correspondiente.
+
+//	int dia;
+//	
+//	printf("ingrese un numero: \n");
+//	scanf("%d", &dia);
+//	
+//	switch (dia) {
+//		
+//		case 1: printf("lunes \n");
+//		break;
+//		
+//		case 2: printf("martes \n");
+//		break;
+//		
+//		case 3: printf("miercoles \n");
+//		break;
+//		
+//		case 4: printf("jueves \n");
+//		break;
+//		
+//		case 5: printf("viernes \n");
+//		break;
+//		
+//		case 6: printf("sabado \n");
+//		break;
+//		
+//		case 7: printf("domingo \n");
+//		break;
+//		
+//		default: printf("ingrese un numero valido \n");
+//		break;
+//	} 
+//	
+	
+//////////////////////////////////////////////////////////////////////////////////	
+//pida al usuario que ingrese un número del 1 al 12, y luego muestre el número de días en el mes correspondiente.
+	
+	
+//	int mes;
+//	
+//	printf("ingrese un numero: \n");
+//	scanf("%d", &mes);
+//	
+//	switch (mes) {
+//		
+//		case 1: printf("enero \n");
+//		break;
+//		
+//		case 2: printf("febrero \n");
+//		break;
+//		
+//		case 3: printf("marzo \n");
+//		break;
+//		
+//		case 4: printf("abril \n");
+//		break;
+//		
+//		case 5: printf("mayo \n");
+//		break;
+//		
+//		case 6: printf("junio \n");
+//		break;
+//		
+//		case 7: printf("julio \n");
+//		break;
+//		
+//		case 8: printf("agosto \n");
+//		break;
+//		
+//		case 9: printf("septiembre \n");
+//		break;
+//		
+//		case 10: printf("octubre \n");
+//		break;
+//		
+//		case 11: printf("nobiembre \n");
+//		break;
+//		
+//		case 12: printf("diciembre \n");
+//		break;
+//		
+//		default: printf("ingrese un numero valido \n");
+//		break;
+//	} 
+//	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	return 0;
 }
