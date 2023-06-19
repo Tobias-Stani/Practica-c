@@ -4,10 +4,8 @@
 int main() {
 
 	char vec [] = "pedro";
-	
-	
+
 	printf("\n longitud del vector VEC: %d", sizeof(vec));
-	
 	
 	printf("\n\n UTILIZACION DE PRINTF \n\n");
 	
@@ -20,7 +18,5 @@ int main() {
 	puts(vec);
 	puts(vec);
 	puts(vec);
-	
-
 	
 }

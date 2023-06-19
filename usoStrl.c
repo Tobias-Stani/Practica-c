@@ -24,6 +24,4 @@ return 0;
 
 }
 
-//	printf("\n\n '%s' MIDE %d CARACTERES ", string, strlen(string));
-//	printf("\n\n  PERO SRTRING MIDE %d BYTES ",sizeof(string));
 	
